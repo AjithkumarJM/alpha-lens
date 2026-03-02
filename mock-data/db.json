@@ -1,0 +1,30 @@
+{
+  "stocks": [
+    {
+      "symbol": "RELIANCE.NS",
+      "name": "Reliance Industries Ltd",
+      "price": 2450.50,
+      "change": 25.30,
+      "changePercent": 1.04,
+      "open": 2425.20,
+      "high": 2455.00,
+      "low": 2420.00,
+      "previousClose": 2425.20,
+      "volume": 5234567,
+      "sector": "Energy"
+    },
+    {
+      "symbol": "TCS.NS",
+      "name": "Tata Consultancy Services Ltd",
+      "price": 3650.75,
+      "change": -15.25,
+      "changePercent": -0.42,
+      "open": 3666.00,
+      "high": 3670.00,
+      "low": 3645.50,
+      "previousClose": 3666.00,
+      "volume": 2145678,
+      "sector": "Technology"
+    }
+  ]
+}
