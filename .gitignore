@@ -1,0 +1,84 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build outputs
+dist/
+build/
+*.local
+
+# Logs
+logs/
+*.log
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Testing
+coverage/
+.nyc_output/
+
+# Cache
+.cache/
+.temp/
+.tmp/
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Frontend specific (Vite)
+frontend/dist/
+frontend/.vite/
+frontend/dist-ssr/
+
+# Backend specific
+backend/logs/
+backend/uploads/
+
+# Sensitive files
+*.pem
+*.key
+*.crt
+config/production.json
+
+/.codesandbox
